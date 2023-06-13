@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../model/map_locale.dart';
 import '../utility/preference_util.dart';
@@ -105,9 +104,9 @@ class FlutterLocalization {
   /// This will use at the MaterialApp
   Iterable<LocalizationsDelegate<dynamic>> get localizationsDelegates => [
         _delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
+        // GlobalMaterialLocalizations.delegate,
+        // GlobalWidgetsLocalizations.delegate,
+        // GlobalCupertinoLocalizations.delegate,
       ];
 
   /// Provide the font family by the current locale's language code
