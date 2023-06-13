@@ -104,9 +104,9 @@ class FlutterLocalization {
   /// This will use at the MaterialApp
   Iterable<LocalizationsDelegate<dynamic>> get localizationsDelegates => [
         _delegate,
-        // GlobalMaterialLocalizations.delegate,
-        // GlobalWidgetsLocalizations.delegate,
-        // GlobalCupertinoLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
       ];
 
   /// Provide the font family by the current locale's language code

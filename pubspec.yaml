@@ -19,6 +19,10 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
+  flutter_localizations:
+    git:
+      url: https://github.com/sasen98/flutter_localization
+      
   plugin_platform_interface: ^2.1.4
   shared_preferences: ^2.1.1
 
